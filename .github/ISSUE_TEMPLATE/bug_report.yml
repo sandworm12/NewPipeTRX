@@ -14,7 +14,7 @@ body:
     attributes:
       label: "Checklist"
       options:
-        - label: "I am able to reproduce the bug with the [latest version](https://github.com/polymorphicshade/NewPipe/releases/latest)."
+        - label: "I am able to reproduce the bug with the latest version given here: [CLICK THIS LINK](https://github.com/polymorphicshade/NewPipe/releases/latest)."
           required: true
         - label: "I am *not* able to reproduce the bug with the *same version* of [upstream NewPipe](https://github.com/TeamNewPipe/NewPipe/releases/)."
           required: true
