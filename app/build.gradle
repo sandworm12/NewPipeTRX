@@ -20,7 +20,7 @@ android {
         resValue "string", "app_name", "NewPipe X"
         minSdk 21
         targetSdk 33
-        def versionCodeStr = "270001"
+        def versionCodeStr = "270101"
         versionCode versionCodeStr.toInteger()
         def versionArray = Arrays.stream(versionCodeStr.split("(?<=\\G.{2})")).mapToInt(Integer::parseInt).toArray()
         versionName "0.${versionArray[0]}.${versionArray[1]}-${versionArray[2]}"
@@ -222,7 +222,7 @@ dependencies {
     // name and the commit hash with the commit hash of the (pushed) commit you want to test
     // This works thanks to JitPack: https://jitpack.io/
     implementation "com.github.TeamNewPipe:nanojson:1d9e1aea9049fc9f85e68b43ba39fe7be1c1f751"
-    implementation "com.github.TeamNewPipe:NewPipeExtractor:v0.24.0"
+    implementation "com.github.TeamNewPipe:NewPipeExtractor:v0.24.1"
     implementation "com.github.TeamNewPipe:NoNonsense-FilePicker:5.0.0"
 
 /** Checkstyle **/
